@@ -1,0 +1,137 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportShop - Tienda Deportiva</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header id="inicio">
+        <h1>SportShop</h1>
+        <p>Tu tienda de productos deportivos</p>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Inicio -->
+        <section class="inicio">
+            <h2>Bienvenido a SportShop</h2>
+            <p>
+                Encontrá productos deportivos de calidad para acompañarte
+                en tus entrenamientos y actividades físicas.
+            </p>
+
+            <img src="img/producto1.jpg" alt="Productos deportivos">
+        </section>
+
+        <!-- Productos -->
+        <section id="productos">
+            <h2>Nuestros productos</h2>
+
+            <div class="productos-container">
+
+                <article class="producto">
+                    <img src="img/producto1.jpg" alt="Zapatillas deportivas">
+                    <h3>Zapatillas deportivas</h3>
+                    <p>Zapatillas cómodas para entrenamientos y actividades deportivas.</p>
+                    <strong>$120.000</strong>
+                </article>
+
+                <article class="producto">
+                    <img src="img/producto2.jpg" alt="Pelota deportiva">
+                    <h3>Pelota deportiva</h3>
+                    <p>Pelota de excelente calidad para practicar diferentes deportes.</p>
+                    <strong>$45.000</strong>
+                </article>
+
+                <article class="producto">
+                    <img src="img/producto3.jpg" alt="Remera deportiva">
+                    <h3>Remera deportiva</h3>
+                    <p>Remera liviana y cómoda para entrenar.</p>
+                    <strong>$35.000</strong>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Reseñas -->
+        <section id="resenas">
+            <h2>Reseñas de nuestros clientes</h2>
+
+            <div class="resenas-container">
+
+                <article class="resena">
+                    <h3>⭐⭐⭐⭐⭐</h3>
+                    <p>"Muy buena calidad y el producto llegó rápido."</p>
+                    <strong>Martín</strong>
+                </article>
+
+                <article class="resena">
+                    <h3>⭐⭐⭐⭐⭐</h3>
+                    <p>"Las zapatillas son muy cómodas y exactamente como aparecían en la página."</p>
+                    <strong>Lucía</strong>
+                </article>
+
+                <article class="resena">
+                    <h3>⭐⭐⭐⭐</h3>
+                    <p>"Muy buena atención y buenos productos."</p>
+                    <strong>Tomás</strong>
+                </article>
+
+                <article class="resena">
+                    <h3>⭐⭐⭐⭐⭐</h3>
+                    <p>"Volvería a comprar sin dudas."</p>
+                    <strong>Sofía</strong>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <form action="https://formspree.io/f/TU_ID" method="POST">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SportShop - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
+```
